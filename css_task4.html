@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    #mySidenav a {
+      position: absolute;
+      left: -80px;
+      transition: 0.2s;
+      padding: 10px;
+      width: 100px;
+      font-size: 20px;
+      color: black;
+      border-radius: 0 5px 5px 0;
+    }
+    
+    #mySidenav a:hover {
+      left: 0;
+    }
+    
+    #Home {
+      top: 10px;
+      background-color: rgb(56, 177, 139);
+    }
+    
+    #Java {
+      top: 70px;
+      background-color: rgb(32, 130, 211);
+    }
+    
+    #html {
+      top: 130px;
+      background-color: rgb(175, 27, 27);
+    }
+    
+    #css {
+      top: 190px;
+      background-color: rgb(119, 118, 118);
+    }
+    </style>
+</head>
+<body>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="#" id="Home">Home</a>
+        <a href="#" id="Java">Java</a>
+        <a href="#" id="html">HTML</a>
+        <a href="#" id="css">CSS</a>
+      </div>
+      
+      <div style="margin-left:80px;">
+        <h2>Hoverable Sidenav Buttons</h2>
+        <p>Hover over the buttons in the left side navigation to open them.</p>
+      </div>
+   
+</body>
+</html> 

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task5</title>
+
+    <style>
+        body{
+            table,tr,td
+            {
+                border-collapse: collapse;
+                padding: 2px;
+            
+            }
+            .input
+            {
+                width: 100px;
+            }
+            .radio
+            {
+                display: inline-block;
+            }
+            .declare
+            {
+                display: inline-block;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+            .register
+            {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1><center> Registration form </center></h1>
+    <table border>
+        <tr>
+            <td>First Name:</td>
+            <td>
+                <input type="text" class="input">
+            </td>
+        </tr>
+        <tr>
+            <td>Last Name:</td>
+            <td>
+                <input type="text" class="input">
+            </td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>
+                <input type="text" class="input">
+            </td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td>
+                <input type="text" class="input">
+            </td>
+        </tr>
+        <tr>
+            <td>Re-enter Password</td>
+            <td>
+                <input type="text" class="input">
+            </td>
+        </tr>
+        <tr>
+            <td>Gender:</td>
+            <td>
+                <input class="radio" type="radio" name="gender">
+                <label for="gender">Male</label>
+                <br/>
+                <input class="radio" type="radio" name="gender">
+                <label for="gender">Female</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Age:</td>
+            <td>
+                <input type="number" class="input">
+            </td>
+        </tr>
+        <tr>
+            <td>Phone Number</td>
+            <td>
+                <input type="number" class="input">
+            </td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td>
+                <textarea name="address" type="text" cols="10" rows="2"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>State</td>
+                <td>
+                    <input type="text" class="input">
+                </td>
+        </tr>
+        <tr>
+            <td>Country</td>
+            <td>
+                <select name="country" id="country">
+                    <option value="India">India</option>
+                    <option value="America">America</option>
+                    <option value="Russia">Russia</option>
+                    <option value="Australia">Australia</option>
+                    <option value="France">France</option>
+                    <option value="Germany">Germany</option>
+                    <option value="China">China</option>
+                    <option value="Japan">Japan</option>
+                    <option value="South Africa">South Africa</option>
+                    <option value="Malaysia">Malaysia</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Language</td>
+            <td>
+                <input type="checkbox" name="language">
+                <label for="language">English</label>
+                <input type="checkbox" name="language">
+                <label for="language">Kannada</label>
+                <input type="checkbox" name="language">
+                <label for="language">Hindi</label>
+                <input type="checkbox" name="language">
+                <label for="language">Telugu</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input class="radio" type="radio">
+                <p class="declare"> Hereby I declare all the given details are true </p>
+            </td>
+        </tr>
+        <tr>
+            <td align="right">
+                <p>Login to <a href="https://ethnus.com/">Ethnus</a> Website</p>
+            </td>
+        </tr>
+
+    </table><br/>
+    <button type="button" onclick="Register">Register</button>
+</body>
+</html>

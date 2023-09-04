@@ -1,0 +1,16 @@
+.box {
+    margin:0 auto; 
+    width:400px;
+    padding: 100px;
+    background:rgb(147, 23, 43);
+    border: 100px solid rgb(221, 80, 104);
+    text-decoration-color: white;
+  }
+  .input,
+  .select,
+  .textarea {
+    border: none;
+    padding: 5px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
